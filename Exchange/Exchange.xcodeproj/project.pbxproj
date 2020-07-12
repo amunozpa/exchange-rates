@@ -16,7 +16,6 @@
 		B78D462724BB53D8000193A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78D462524BB53D8000193A3 /* LaunchScreen.storyboard */; };
 		B78D462F24BB575D000193A3 /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D462E24BB575D000193A3 /* Moneda.swift */; };
 		B78D463124BB68A3000193A3 /* MonedaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D463024BB68A3000193A3 /* MonedaViewModel.swift */; };
-		B78D463524BB6D3D000193A3 /* MonedasGuardadasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D463424BB6D3D000193A3 /* MonedasGuardadasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		B78D462824BB53D8000193A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B78D462E24BB575D000193A3 /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
 		B78D463024BB68A3000193A3 /* MonedaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonedaViewModel.swift; sourceTree = "<group>"; };
-		B78D463424BB6D3D000193A3 /* MonedasGuardadasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonedasGuardadasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +72,6 @@
 				B78D462224BB53D8000193A3 /* Preview Content */,
 				B78D462E24BB575D000193A3 /* Moneda.swift */,
 				B78D463024BB68A3000193A3 /* MonedaViewModel.swift */,
-				B78D463424BB6D3D000193A3 /* MonedasGuardadasView.swift */,
 			);
 			path = Exchange;
 			sourceTree = "<group>";
@@ -158,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78D463524BB6D3D000193A3 /* MonedasGuardadasView.swift in Sources */,
 				B78D461824BB53D3000193A3 /* AppDelegate.swift in Sources */,
 				B78D461A24BB53D3000193A3 /* SceneDelegate.swift in Sources */,
 				B78D463124BB68A3000193A3 /* MonedaViewModel.swift in Sources */,
