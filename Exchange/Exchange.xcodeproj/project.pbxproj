@@ -15,6 +15,7 @@
 		B78D462424BB53D8000193A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78D462324BB53D8000193A3 /* Preview Assets.xcassets */; };
 		B78D462724BB53D8000193A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78D462524BB53D8000193A3 /* LaunchScreen.storyboard */; };
 		B78D462F24BB575D000193A3 /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D462E24BB575D000193A3 /* Moneda.swift */; };
+		B78D463124BB68A3000193A3 /* MonedaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D463024BB68A3000193A3 /* MonedaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B78D462624BB53D8000193A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B78D462824BB53D8000193A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B78D462E24BB575D000193A3 /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
+		B78D463024BB68A3000193A3 /* MonedaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonedaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				B78D461B24BB53D3000193A3 /* Exchange.xcdatamodeld */,
 				B78D462224BB53D8000193A3 /* Preview Content */,
 				B78D462E24BB575D000193A3 /* Moneda.swift */,
+				B78D463024BB68A3000193A3 /* MonedaViewModel.swift */,
 			);
 			path = Exchange;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				B78D461824BB53D3000193A3 /* AppDelegate.swift in Sources */,
 				B78D461A24BB53D3000193A3 /* SceneDelegate.swift in Sources */,
+				B78D463124BB68A3000193A3 /* MonedaViewModel.swift in Sources */,
 				B78D461F24BB53D3000193A3 /* ContentView.swift in Sources */,
 				B78D462F24BB575D000193A3 /* Moneda.swift in Sources */,
 				B78D461D24BB53D3000193A3 /* Exchange.xcdatamodeld in Sources */,
