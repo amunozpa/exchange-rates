@@ -11,7 +11,7 @@ import CoreData
 class Moneda: NSManagedObject, Identifiable {
     @NSManaged var base: String?
     @NSManaged var quote: String?
-    @NSManaged var rate: Double
+    //@NSManaged var rate: Double
     @NSManaged var time: Date?
     
     

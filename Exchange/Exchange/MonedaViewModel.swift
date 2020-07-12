@@ -9,7 +9,7 @@
 import CoreData
 import SwiftUI
 
-class ContactViewModel: ObservableObject {
+class MonedaViewModel: ObservableObject {
     @Published var monedas = [Moneda]()
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
