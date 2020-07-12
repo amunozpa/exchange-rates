@@ -8,17 +8,20 @@
 
 import CoreData
 
-class Exchange: NSManagedObject, Identifiable {
+class Moneda: NSManagedObject, Identifiable {
     @NSManaged var base: String?
     @NSManaged var quote: String?
     @NSManaged var rate: Double
     @NSManaged var time: Date?
     
     
-    /*static func getAllContactRequest() -> NSFetchRequest<Exchange> {
-        let request = Exchange.fetchRequest() as! NSFetchRequest<Exchange>
-        request.sortDescriptors = [NSSortDescriptor(key: "name", ascending: false)]
+    static func getAllContactRequest() -> NSFetchRequest<Moneda> {
+        let request = Moneda.fetchRequest() as! NSFetchRequest<Moneda>
+        request.sortDescriptors = [NSSortDescriptor(key: "base", ascending: false)]
+        request.sortDescriptors = [NSSortDescriptor(key: "quote", ascending: false)]
+        request.sortDescriptors = [NSSortDescriptor(key: "rate", ascending: false)]
+        request.sortDescriptors = [NSSortDescriptor(key: "time", ascending: false)]
         return request
-    }*/
+    }
 }
 
