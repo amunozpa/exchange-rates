@@ -41,7 +41,6 @@ struct ContentView: View {
                     }.labelsHidden()
                     .frame(height: 45)
                     .clipped()
-                    Spacer()
                     //Text("You selected: \(colors[selectedColor])")
                 }
             }
