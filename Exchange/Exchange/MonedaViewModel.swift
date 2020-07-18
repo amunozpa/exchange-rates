@@ -26,6 +26,7 @@ class MonedaViewModel: ObservableObject {
     func addMoneda(quote: String){
         let moneda = Moneda(context: context)
         moneda.quote = quote
+        //moneda.rate = rate
         saveContext()
     }
     

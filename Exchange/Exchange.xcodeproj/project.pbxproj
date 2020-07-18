@@ -16,6 +16,7 @@
 		B78D462724BB53D8000193A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78D462524BB53D8000193A3 /* LaunchScreen.storyboard */; };
 		B78D462F24BB575D000193A3 /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D462E24BB575D000193A3 /* Moneda.swift */; };
 		B78D463124BB68A3000193A3 /* MonedaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D463024BB68A3000193A3 /* MonedaViewModel.swift */; };
+		B78D463724BBAEA8000193A3 /* VistaAlternativaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D463624BBAEA8000193A3 /* VistaAlternativaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B78D462824BB53D8000193A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B78D462E24BB575D000193A3 /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
 		B78D463024BB68A3000193A3 /* MonedaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonedaViewModel.swift; sourceTree = "<group>"; };
+		B78D463624BBAEA8000193A3 /* VistaAlternativaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaAlternativaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				B78D462224BB53D8000193A3 /* Preview Content */,
 				B78D462E24BB575D000193A3 /* Moneda.swift */,
 				B78D463024BB68A3000193A3 /* MonedaViewModel.swift */,
+				B78D463624BBAEA8000193A3 /* VistaAlternativaView.swift */,
 			);
 			path = Exchange;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				B78D461824BB53D3000193A3 /* AppDelegate.swift in Sources */,
 				B78D461A24BB53D3000193A3 /* SceneDelegate.swift in Sources */,
+				B78D463724BBAEA8000193A3 /* VistaAlternativaView.swift in Sources */,
 				B78D463124BB68A3000193A3 /* MonedaViewModel.swift in Sources */,
 				B78D461F24BB53D3000193A3 /* ContentView.swift in Sources */,
 				B78D462F24BB575D000193A3 /* Moneda.swift in Sources */,

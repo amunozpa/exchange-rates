@@ -69,6 +69,7 @@ struct ContentView: View {
                     }.labelsHidden()
                     .frame(height: 45)
                     .clipped()
+                    .padding()
                     //Text("You selected: \(colors[selectedColor])")
                 }
             }
